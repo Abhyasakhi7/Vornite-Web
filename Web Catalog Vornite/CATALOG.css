@@ -1,0 +1,167 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.box-background {
+    width: 100%;
+    height: 90%;
+    background-color: black;
+    flex-shrink: 0;
+    margin-top: 30px;
+} 
+
+.title-text {
+    color: white;
+    font-family: 'inter', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -640px;
+    margin-left: 40px;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.line {
+    width: 222px;
+    height: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: white;
+    margin-left: 40px;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.original {
+    color: white;
+    font-family: 'inter', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 13px;
+    margin-left: 85px;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.data-list {
+    color: white;
+    font-family: 'inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    margin-left: 90px;
+    margin-top: 0;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.standard-ads {
+    color: white;
+    font-family: 'inter', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 87px;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.data-list1 {
+    color: white;
+    font-family: 'inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    margin-left: 90px;
+    margin-top: 0;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.preminite {
+    color: white;
+    font-family: 'inter', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 90px;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.data-list2 {
+    color: white;
+    font-family: 'inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    margin-top: 0;
+    margin-left: 90px;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+.ads {
+    margin-top: 40px;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.logo-up {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    margin-left: 1100px;
+    margin-top: -1000px;
+    margin-bottom: 499.5px;
+    animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.logo-text {
+    color: white;
+    font-family: 'inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: normal;
+    margin-left: 1200px;
+    margin-top: -575px;
+    animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.foto {
+    width: 350px;
+    flex-shrink: 0;
+    margin-left: 1000px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+    animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.element {
+    width: 18px;
+    height: 275px;
+    flex-shrink: 0;
+    background: white;
+    margin-left: 1000px;
+    margin-top: -280px;
+    position: relative;
+    z-index: 2;
+    animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.powered {
+    color: black;
+    text-align: center;
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 130px;
+    animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}

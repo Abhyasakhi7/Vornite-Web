@@ -1,0 +1,121 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.background {
+    width: 50%;
+    height: 100%;
+    flex-shrink: 0;
+    background: black;
+}
+
+.logo-up {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    margin-top: -1000px;
+    margin-bottom: 640px;
+    margin-left: 10px;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.logo-text {
+    color: white;
+    font-family: 'inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: normal;
+    margin-top: -715px;
+    margin-left: 110px;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.Instagram {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    margin-top: 90px;
+    margin-left: 320px;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    transition: transform 0.3s;
+}
+
+.Instagram:hover {
+    transform: scale(1.2);
+}
+
+.WhatsApp {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    margin-top: 90px;
+    margin-left: 320px;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    transition: transform 0.3s;
+}
+
+.WhatsApp:hover {
+    transform: scale(1.2);
+}
+
+.YouTube {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    margin-left: 1070px;
+    margin-top: -1000px;
+    margin-bottom: 260px;
+    animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    transition: transform 0.3s;
+}
+
+.YouTube:hover {
+    transform: scale(1.2);
+}
+
+.Facebook {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    margin-left: 1070px;
+    margin-top: -1000px;
+    margin-bottom: 30px;
+    animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+    transition: transform 0.3s;
+}
+
+.Facebook:hover {
+    transform: scale(1.2);
+}
+
+.powered {
+    color: white;
+    text-align: center;
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: -103px;
+    margin-top: -114px;
+}
+
+.vorenter {
+    color: black;
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 770px;
+    margin-top: -44px;
+}
+
+.by {
+    margin-top: 217px;
+    animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}

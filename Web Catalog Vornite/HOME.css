@@ -1,0 +1,167 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.back-home {
+    text-decoration: none;
+}
+
+.catalog-html {
+    text-decoration: none;
+}
+
+.Logo-UP {
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+    margin-left: 10px;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
+.Text-Logo {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 110px;
+    margin-top: -73px;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
+.title {
+    color: #14213D;
+    font-family: 'inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 35px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.horizontal-line {
+    width: 26%;
+    height: 2px;
+    background-color: black;
+    margin-left: 30px;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.product {
+    color: black;
+    font-family: 'inter', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 30px;
+    margin-top: 0px;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.text {
+    color: black;
+    font-family: 'inter', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    white-space: pre-line;
+    margin-top: -20px;
+    margin-left: 35px;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.Chevron {
+    margin-left: 33px;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.name {
+    color: black;
+    font-family: 'inter', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 65px;
+    margin-top: -36px;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.more-box {
+    width: 300px;
+    height: 70px;
+    background-color: #14213D;
+    flex-shrink: 0;
+    border-radius: 10px;
+    margin-left: 34px;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.more {
+    color: white;
+    font-family: 'inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 123px;
+    margin-top: -59px;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.isi {
+    margin-top: 80px;
+    animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.rectangle {
+    width: 50%;
+    height: 800px;
+    background-color: black;
+    flex-shrink: 0;
+    margin-left: 768px;
+    margin-top: -628px;
+}
+
+.vornite {
+    width: 700px;
+    height: 700px;
+    flex-shrink: 0;
+    margin-left: 820px;
+    margin-top: -1000px;
+    margin-bottom: 100px;
+    animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.powered {
+    color: black;
+    text-align: center;
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: -103px;
+    margin-top: -114px;
+    animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.vorenter {
+    color: white;
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 770px;
+    margin-top: -44px;
+    animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}

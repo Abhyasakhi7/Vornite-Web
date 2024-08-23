@@ -1,0 +1,116 @@
+/* Ensure full height and prevent scrolling */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'inter', sans-serif;
+}
+
+/* Background styling */
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    z-index: 0;
+}
+
+/* Content styling */
+.content {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Space between items */
+    padding: 20px 40px;
+    z-index: 2;
+}
+
+/* Member styles */
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden; /* Ensures content does not overflow */
+}
+
+.member-img {
+    width: 45%; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    border-bottom: none; /* Remove border */
+    margin-bottom: 5px; /* Space below the image */
+}
+
+.member-name {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.member-name-white {
+    color: white;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px; /* Space between social icons */
+    margin-top: 5px; /* Margin above the icons */
+}
+
+.social-link {
+    display: inline-block;
+}
+
+.social-icon {
+    width: 40px; /* Size of the social icons */
+    height: auto;
+    vertical-align: middle; /* Aligns icons nicely */
+}
+
+.member-name-1 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: white;
+}
+
+.member-name-3 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: white;
+}
+
+.member-down {
+    animation: slide-down 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    margin-top: -90px;
+}
+
+.member-up {
+    animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    margin-top: 100px;
+}
+
+.powered {
+    color: black;
+    text-align: center;
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -1px;
+    animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
